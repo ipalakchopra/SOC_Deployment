@@ -1,0 +1,218 @@
+
+		<html>
+		<head>
+
+		<style type="text/css">
+
+        	        .allcaps {
+                		 font-variant: small-caps;
+                		}
+		</style>
+
+		<script type="text/javascript">
+
+                        function popupwindow(url, title, w, h)
+                         {
+                        var left = (screen.width/2)-(w/2);
+                        var top = (screen.height/2)-(h/2);
+                        return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+                        }
+
+                </script>
+
+		</head>
+		<LINK REL="SHORTCUT ICON" HREF="https://internet.iitb.ac.in/favicon.ico">
+		<Title>CC-IITB Internet Access</Title>
+		<body onload="document.getElementById('mymarquee').setAttribute('scrollamount', 2, 0);">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+					<table border="0" cellspacing="0" cellpadding="3" width="100%">
+						<tr style="background-color: #4E387E">
+							<td align="center" width=13%>
+                                                        </td>
+							<td align="center" width=27%>
+								<font color="#ffffff" class="allcaps">
+								<h1>Computer Center</h1>
+								</font>
+							</td>	
+					
+							<td align="center" width=60%>
+								<FORM name=auth action="logout.php" method="POST" id="pc" autocomplete="off">
+								<table border="0" align="right" cellspacing="0px" width="80%">
+				
+									<tr>
+								
+										<td align="right">
+									 
+ 								
+							 
+										</td>
+	
+								
+										<td align="center">
+									 
+ 
+ 	
+										</td>
+
+										<td align="left">
+											<input type=submit name="button" form="pc" value="Logout"  style="height: 2em; width: 7em">
+											<input type=submit name="button" form="pc" value="Logout All"  style="height: 2em; width: 8em; color:red;" onclick="return confirm('Do you really want to Logout all your sessions?')">
+										</td>
+										
+
+									</tr>
+
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+		</table>
+
+		<table>
+
+
+		</table>
+
+		<center>
+
+				<br>
+		<!--<marquee behavior="scroll" direction="left" id="mymarquee">
+                <font face="Cambria" size="4" color="red" class="allcaps"> -->
+                <font face="Arial" size="4" color="red"><center> 
+		<b></b></font></center>
+                <!--</marquee>-->
+		<div id="cc-announce"> </div>
+
+		<br><br>
+		<center>
+			
+				
+		<table width="80%" border="1" cellpadding="3" cellspacing="0">
+
+			<tr>
+				<td width="20%">
+				<center>
+				<b>LDAP ID</b>
+				</center>
+				</td>
+
+				<td width="20%">
+				<center>
+				<b>IP ADDRESS</b>
+				</center>
+				</td>
+
+				<td width="20%">
+				<center>
+				<b>LOCATION</b>
+				</center>
+				</td>
+
+				<td width="20%">
+				<center>
+				<b>LOGIN AT</b>
+				</center>
+				</td>
+
+				<td width="20%">
+				<center>
+				<b>SELECT TO LOGOUT</b>
+				</center>
+				</td>
+			</tr>	
+
+		</table>
+		<div class="scrolling">
+		<table width="80%" border="1" cellpadding="3" cellspacing="0">
+		
+				<tr>		
+					<td width="20%">
+					<center>
+                	                30005809					</center>
+	                                </td>
+	
+					<td width="20%">
+					<center>
+                	                10.130.157.148					</center>
+	                                </td>
+
+					<td width="20%">
+					<center>
+                	                CSE New					</center>
+	                                </td>
+
+					<td width="20%">
+					<center>
+                	                25-Feb-2025 15:01:50					</center>
+	                                </td>
+
+					<td width="20%">
+					<center>
+												<input type="radio" name="ip" value="10.130.157.148" checked="checked">
+							
+					<input type="hidden" name="etype" value="prjstf"> 
+					</center>
+					</td>
+
+				</tr>
+			
+		</table>
+		</div>
+		</FORM>
+		<br><br><br>
+
+		<table width="80%" border="1" cellpadding="5" cellspacing="4">
+
+			<tr>
+				<td>
+
+					<font face="Verdana,Arial,Helvetica,sans" size="3" color="red">
+					*Note:-<br>
+					</font>
+	
+					<font face="Verdana,Arial,Helvetica,sans" size="3">
+					 <b>-</b> You can <b>CLOSE</b> this window.<br>
+					 <b>-</b> All users of IIT Bombay will be subjected to follow the <b>"IT ACCESS POLICY"</b> while using this facility.<br>
+					 <b>-</b> The Connection will  be <b>CLOSED</b>  automatically if  no  <b>Network Activity</b> has been detected for the<br>
+					 last 30 Minutes.<br>
+					</font>
+					<font face="Verdana,Arial,Helvetica,sans" size="3" color="red">
+					 <b>-</b> Even after succesful login, if you were not able to browse the internet then please <b>Logout</b> and <b>Login</b> again. <br>
+					</font>
+	
+				</td>
+			</tr>
+
+		</table>
+
+		<table width="80%" border="1" cellpadding="5" cellspacing="4">
+
+			<tr>
+	
+				<td width="35%">
+					<b>-</b> <font color="#517494"><a href=https://camp.iitb.ac.in/cgi-bin/index.cgi>Change LDAP Password</a></font>	
+				</td>	
+		
+				<td width="35%">
+					<b>-</b> <font color="#517494"><a href=https://help-cc.iitb.ac.in/>Report A Problem</a></font>
+				</td>	
+	
+				<td width="30%">
+					<b>-</b> <font color="#517494"><a href=https://www.cc.iitb.ac.in/page/essentialfaqs>FAQs</a></font>
+				</td>
+	
+			</tr>
+	
+		</table>
+
+		<script src="https://www.cc.iitb.ac.in/assets/scripts/announce.js"> </script>
+					</center>	
+				
+	
+</body>
+</html>
